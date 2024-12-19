@@ -1,0 +1,2 @@
+# Type 'string[]' is not assignable to type 'string'
+This bug demonstrates a common TypeScript error: type mismatch when passing an array to a function expecting a string. The function `greeter` expects a single string, but an array of strings is passed, resulting in a type error.  The solution involves either modifying the function signature to accept an array or iterating over the array to call the function for each element. 
